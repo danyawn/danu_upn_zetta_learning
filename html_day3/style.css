@@ -1,0 +1,88 @@
+.text-1 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.text-2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #faa657;
+
+  border-radius: 10px;
+  padding: 5px;
+  border-collapse: collapse;
+}
+th,
+td {
+  border-radius: 5px;
+}
+
+#profile {
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-image: linear-gradient(to bottom right, blue, orange);
+}
+
+.media {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.pic {
+  border-radius: 99px;
+  box-shadow: 5px 5px 1px lightgrey;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-1 {
+  margin: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border: 1px solid;
+  border-radius: 40px;
+  box-shadow: 10px 10px lightgrey;
+}
+
+/* Shopping List */
+#shopping {
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0eadf;
+}
+
+.navbar {
+  background-image: linear-gradient(to bottom, #f76b2a, #faa657);
+  opacity: 0.5;
+  color: white;
+  box-shadow: 5px 5px lightblue;
+  padding: 20px;
+  padding-left: 70px;
+}
+
+.container-2 {
+  width: 100%;
+}
+
+#content-table {
+  background-color: #fff2e6;
+  padding: 10%;
+  border-radius: 50px;
+}
+
+.flex {
+  display: flex;
+}
