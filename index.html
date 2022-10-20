@@ -5,76 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      #green {
-        background-color: green;
+      * {
+        font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: orange;
       }
-      #red {
-        background-color: red;
+      .allCard {
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
       }
-      #blue {
-        background-color: blue;
+      .card > h3 {
+        color: aqua;
+      }
+
+      div {
+        padding: 10px;
+      }
+
+      .card {
+        color: white;
+        display: grid;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 28, 1) 45%, rgba(0, 212, 255, 1) 100%);
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        height: 300px;
+        width: 200px;
+        text-align: center;
+      }
+
+      .image {
+        height: 150px;
+        margin-left: 40px;
       }
     </style>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <title>CSS Day 1</title>
+    <title>CSS Day 2</title>
   </head>
-  <body style="font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
-    <!-- Superhero Profile -->
-    <div>
-      <table>
-        <tr style="color: red; font-size: 30px">
-          <td><strong>Superhero</strong></td>
-          <td>:</td>
-          <td>Black Lightning</td>
-        </tr>
-        <tr>
-          <td><strong>Debut Date</strong></td>
-          <td>:</td>
-          <td>16 January 2018</td>
-        </tr>
-        <tr style="color: green">
-          <td><strong>Superpower</strong></td>
-          <td>:</td>
-          <td>Absorb and Emit Electric</td>
-        </tr>
-      </table>
-    </div>
-    <!-- End Superhero Profile -->
+  <body>
+    <header style="padding-left: 80px; padding-right: 80px">
+      <h1>HTML and CSS Project</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit repellat minima ad rerum illum modi dolorum. Ipsam, incidunt? Magni, in.</p>
+    </header>
 
-    <!-- Table CSS -->
-    <div style="margin-top: 50px">
-      <table>
-        <tr id="green">
-          <td><strong>Hobbies</strong></td>
-          <td>Playing Games</td>
-          <td>Hanging Out</td>
-          <td>Programming</td>
-        </tr>
-        <tr id="red">
-          <td><strong>Favourite Movies</strong></td>
-          <td>The Batman Trilogy</td>
-          <td>Dunkirk</td>
-          <td>1917</td>
-        </tr>
-        <tr id="blue">
-          <td><strong>Favourite Song</strong></td>
-          <td>Evaluasi by Hindia</td>
-          <td>Anytime You Want by Relaity Club</td>
-          <td>505 by Arctic Monkeys</td>
-        </tr>
-      </table>
+    <!-- Class Card -->
+    <div class="allCard">
+      <div class="card">
+        <h3>Pokemon</h3>
+        <img src="./assets/pokecard.png" class="image" alt="" />
+        <p>This is a Legendary Card</p>
+      </div>
+      <div class="card">
+        <h3>Pokemon</h3>
+        <img src="./assets/pokecard.png" class="image" alt="" />
+        <p>This is a Legendary Card</p>
+      </div>
+      <div class="card">
+        <h3>Pokemon</h3>
+        <img src="./assets/pokecard.png" class="image" alt="" />
+        <p>This is a Legendary Card</p>
+      </div>
+      <div class="card">
+        <h3>Pokemon</h3>
+        <img src="./assets/pokecard.png" class="image" alt="" />
+        <p>This is a Legendary Card</p>
+      </div>
     </div>
-    <!-- End Table CSS -->
-
-    <!-- Simply Profile -->
-    <div>
-      <h2>Yan Danu Tirta</h2>
-      <h3>20th Years Old</h3>
-      <p>
-        Hello everyone, my name's <span class="strong">Yan Danu Tirta</span> but you can call me dan, and this is me in Zetta Byte Bootcamp in a month, i hope i can finish this bootcamp perfectly. One of my desires is to become a
-        <span class="strong">software engineer</span> in the future and be able to build websites and software that will benefit many people.
-      </p>
-    </div>
-    <!-- End Simply Profile -->
   </body>
 </html>
