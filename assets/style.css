@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.text1 {
+  padding: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.text2 {
+  padding: 5px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.price {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.allCard {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.navBack {
+  background-color: rgb(196, 196, 196);
+  box-shadow: 2px 2px 0px 1px rgba(138, 138, 138, 1);
+  -webkit-box-shadow: 2px 2px 0px 1px rgba(138, 138, 138, 1);
+  -moz-box-shadow: 2px 2px 0px 1px rgba(138, 138, 138, 1);
+}
+
+.title {
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.container-card {
+  max-width: 1440px;
+  padding: 20px;
+}
+.card {
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 2px 10px gray;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 2px;
+  width: 100%;
+  background-color: rgb(0, 168, 109);
+  border-radius: 10px;
+}
+
+.button1 {
+  margin-top: 10px;
+  padding: 2px;
+  width: 100px;
+  background-color: rgb(0, 168, 109);
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: rgb(0, 226, 147);
+  transition: ease-in-out 300ms;
+}
+
+.button1:hover {
+  background-color: rgb(0, 226, 147);
+  transition: ease-in-out 300ms;
+}
+
+.text-btn {
+  color: white;
+  text-decoration: none;
+}
