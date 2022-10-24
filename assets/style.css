@@ -101,3 +101,38 @@
   color: white;
   text-decoration: none;
 }
+
+/* Margin */
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.ml-1 {
+  margin-left: 1rem;
+}
+.mr-1 {
+  margin-right: 1rem;
+}
+
+/* padding */
+.pb-1 {
+  padding-bottom: 1rem;
+}
+.pt-1 {
+  padding-top: 1rem;
+}
+.pl-1 {
+  padding-left: 1rem;
+}
+.pr-1 {
+  padding-right: 1rem;
+}
+
+.scroll {
+  background-color: rgb(55, 255, 138);
+  width: 200px;
+  height: 100px;
+  overflow: auto;
+}
