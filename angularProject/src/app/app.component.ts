@@ -3,8 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'angularProject';
+  title = 'Cashier App';
+  titleBind: string = 'Data Binding';
+  name: string = 'Yan Danu';
+  age: number = 20;
 }
